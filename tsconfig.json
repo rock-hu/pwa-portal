@@ -1,28 +1,22 @@
 {
   "compilerOptions": {
-      "module": "esnext",
-      "target": "esnext",
-      "lib": ["es2017", "esnext", "dom", "dom.iterable"],
-      "declaration": true,
-      "emitDeclarationOnly": true,
-      "skipLibCheck": true,
-      "outDir": "./types",
-      "strict": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
-      "noImplicitReturns": true,
-      "noFallthroughCasesInSwitch": true,
-      "moduleResolution": "bundler",
-      "allowSyntheticDefaultImports": true,
-      "experimentalDecorators": true,
-      "forceConsistentCasingInFileNames": true,
-      "useDefineForClassFields": false,
-      "isolatedModules": true,
-      "types": [
-          "vite-plugin-pwa/client",
-          "vite/client"
-      ]
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
   },
-  "include": ["src/**/*.ts", "router.d.ts"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
+
