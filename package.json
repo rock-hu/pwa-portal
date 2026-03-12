@@ -7,7 +7,7 @@
     "dev-server": "vite --open",
     "dev": "npm run dev-server",
     "dev-task": "vite",
-    "deploy": "npx @azure/static-web-apps-cli login --no-use-keychain && npx @azure/static-web-apps-cli deploy",
+    "deploy": "gh-pages -d public --dotfiles --nojekyll --user rock.c.c.hu@gmail.com",
     "build": "tsc && vite build",
     "start": "npm run dev",
     "start-remote": "vite --host",
@@ -33,7 +33,8 @@
     "lighthouse-parade": "^2.1.0",
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
-    "vite-plugin-pwa": "^0.20.5"
+    "vite-plugin-pwa": "^0.20.5",
+    "gh-pages": "^6.1.1"
   },
   "prettier": {
     "tabWidth": 2,

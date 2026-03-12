@@ -5,7 +5,5 @@ dev-dist
 build
 types
 .idea
-.github
-
 /lighthouse-parade-data
 /latest-run
