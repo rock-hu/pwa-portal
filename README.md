@@ -1,5 +1,12 @@
 # pwa-portal
 
+> In 2015, Google introduced the concept of Progressive Web Apps (PWAs), combining the ease of Web Apps with the experience of native apps:
+
+- Installable: Users can add PWAs to their home screen with one click and open them like apps.
+- Fast Loading: With Service Worker caching, users can quickly access PWAs even on weak networks.
+- Push Notifications: Developers can reach users through web push notifications.
+- Cross-platform: A single codebase can cover Android, iOS (with some limitations), and PC browsers.
+
 With it you get an app that:
 
 - Has no build system to set up and no boilerplate code to add. Everything is included out of the box.
@@ -34,7 +41,6 @@ Service workers are also intended to be used for such things as:
 - Performance enhancements, for example, pre-fetching resources that the user is likely to need soon, such as the next few pictures in a photo album.
 - API mocking.
 
-
 ```
 {time period} : {event}
               : {event}
@@ -44,11 +50,13 @@ Service workers are also intended to be used for such things as:
 ```mermaid
 timeline
     title History of Social Media Platform
-    2002 : LinkedIn
-    2004 : Facebook
-         : Google
-    2005 : YouTube
-    2006 : Twitter
+    2015 : PWA - Introduction of PWAs
+    2018 : PWA - Service Workers Standardized
+    2020 : PWA - Adoption by Major Platforms Companies
+    2022 : PWA - Improved Performance Metrics
+    2023 : PWA - Enhanced Security Features
+    2024 : PWA - Widespread Cross-Platform Compatibility
+    2025 : PWA - Revolutionizing User Engagement
 ```
 
 ## Jump Right In
@@ -70,6 +78,10 @@ And that's it! Good luck on your Progressive Web App adventure!
 and all with just a few button clicks 😊.
 
 ## [PWA Stats](https://www.pwastats.com/)
+
+🤝 Contribution
+
+![Alt](https://repobeats.axiom.co/api/embed/2fbf7ed32d01be649b27133929262c75f8dedb6b.svg 'Repobeats analytics image')
 
 ## references
 

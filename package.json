@@ -11,7 +11,9 @@
     "build": "tsc && vite build",
     "start": "npm run dev",
     "start-remote": "vite --host",
-    "webhint": "hint http://localhost:5173"
+    "webhint": "hint http://localhost:5173",
+    "lighthouse:parade": "lighthouse-parade http://localhost:5173 --ignore-robots  --max-crawl-depth  1",
+    "lighthouse": "lighthouse http://localhost:5173 --output-path=./lighthouse/lighthouse.html --gather-mode --audit-mode --output html  --quiet"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +29,8 @@
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "hint": "^7.1.13",
+    "lighthouse": "^13.0.3",
+    "lighthouse-parade": "^2.1.0",
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
     "vite-plugin-pwa": "^0.20.5"
