@@ -10,7 +10,8 @@
     "deploy": "npx @azure/static-web-apps-cli login --no-use-keychain && npx @azure/static-web-apps-cli deploy",
     "build": "tsc && vite build",
     "start": "npm run dev",
-    "start-remote": "vite --host"
+    "start-remote": "vite --host",
+    "webhint": "hint http://localhost:5173"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +25,8 @@
     "workbox-precaching": "^7.3.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "hint": "^7.1.13",
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
     "vite-plugin-pwa": "^0.20.5"
@@ -39,3 +42,4 @@
     "bracketSpacing": true
   }
 }
+
